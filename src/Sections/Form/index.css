@@ -1,0 +1,65 @@
+.main-bg {
+ background: url("../../assets/bg-img2.png") no-repeat;
+ background-size: contain;
+ background-position: top center;
+ position: relative;
+}
+
+.mirror-bg {
+ background-color: rgba(7, 9, 22, 0.35);
+ backdrop-filter: blur(16px);
+ -webkit-backdrop-filter: blur(16px);
+ border-radius: 1rem;
+}
+
+.input-dark {
+ width: 100%;
+ background-color: #1a223d;
+ padding: 0.75rem;
+ color: white;
+ font-weight: 500;
+ border: none;
+ border-radius: 0.65rem;
+ padding: 1.2rem 1.1rem;
+ margin-top: 0.25rem;
+ outline: none;
+}
+
+input::placeholder,
+textarea::placeholder,
+select {
+ color: rgba(255, 255, 255, 0.7);
+}
+label {
+ display: block;
+ text-align: left;
+ margin-bottom: 0.25rem;
+}
+
+.button-wrapper {
+ position: relative;
+ width: 100%;
+ background: url("../../assets/button-bg.png") no-repeat center;
+ background-size: auto;
+ justify-self: center;
+}
+
+.button span {
+ padding: 9px 16px;
+ display: block;
+ position: relative;
+ background: #0c1021;
+ border-radius: 100px;
+ transition: background ease-in 0.25s;
+}
+
+@media screen and (max-width: 479px) {
+ .button-wrapper {
+  background-size: 175%;
+ }
+}
+@media screen and (max-width: 767px) {
+ .button-wrapper {
+  background-size: 150%;
+ }
+}

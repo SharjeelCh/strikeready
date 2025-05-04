@@ -1,0 +1,37 @@
+.typing-wrapper {
+ display: flex;
+ align-items: center;
+ font-size: xx-large;
+ justify-content: center;
+ gap: 0.6rem;
+}
+
+.typing-text-ani {
+ display: inline-block;
+ white-space: nowrap;
+ overflow: hidden;
+ width: 0;
+ animation: typing 2s steps(30) 0.5s forwards;
+}
+
+@keyframes typing {
+ 0% {
+  width: 0;
+ }
+ 100% {
+  width: 100%;
+ }
+}
+
+.visible {
+ visibility: visible;
+}
+
+@media (max-width: 768px) {
+ .typing-wrapper {
+  font-size: x-large;
+ }
+ .typing-text-ani {
+  font-size: large;
+ }
+}

@@ -1,0 +1,7 @@
+.bg-main {
+ background: url("../../assets/bg-img2.png") no-repeat;
+ background-size:cover;
+ position: absolute;
+ background-blend-mode: overlay;
+ 
+}

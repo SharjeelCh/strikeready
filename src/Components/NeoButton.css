@@ -1,0 +1,26 @@
+.button-wrapper {
+ position: relative;
+ width: 100%;
+ background: url("../assets/button-bg.png") no-repeat ;
+ background-size: cover;
+ }
+
+.button span {
+ padding: 9px 16px;
+ display: block;
+ position: relative;
+ background: #0c1021;
+ border-radius: 100px;
+ transition: background ease-in 0.25s;
+}
+
+@media screen and (max-width: 479px) {
+ .button-wrapper {
+  background-size: 175%;
+ }
+}
+@media screen and (max-width: 767px) {
+ .button-wrapper {
+  background-size: 150%;
+ }
+}

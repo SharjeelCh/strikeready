@@ -1,0 +1,21 @@
+.bg-main {
+    background: url("../../assets/bg-img2.png") no-repeat;
+    background-size: contain;
+     background-position: center;
+     position: relative;
+     background-blend-mode: overlay;
+   }
+   
+   .mirror-bg {
+    background-color: rgba(7, 9, 22, 0.35);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 1rem;
+   }
+   
+   @media screen and (max-width: 479px) {
+    .bg-main {
+      background-size: cover;
+    }
+    
+   }
