@@ -88,7 +88,7 @@ function Collaborators() {
       rel="noopener noreferrer"
       className="relative bg-[#0C1021] border border-[#66D8B5] rounded-xl flex items-center justify-center p-6 h-40 overflow-hidden hover:bg-[#112333] transition ease-in-out duration-300"
      >
-      {/* Glow Image */}
+      {/* Glow Imag */}
       <img src={buttonBg} alt="" className="absolute -bottom-2.5   left-0 w-full h-auto pointer-events-none" />
 
       {/* Partner Logo */}
